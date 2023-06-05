@@ -10,11 +10,13 @@ launcher "what" TL ML "in" "out"
 
 Launcher return value (view as echo %errorlevel%):
 
-| 0 | Normal                |
-| 1 | Time limit exceeded   |
-| 2 | Memory limit exceeded |
-| 3 | Runtime error         |
-| 4 | Launcher error        |
+|code|      description      |
+|----|-----------------------|
+|  0 | Normal                |
+|  1 | Time limit exceeded   |
+|  2 | Memory limit exceeded |
+|  3 | Runtime error         |
+|  4 | Launcher error        |
 
 __What__ can either be
 - a path to executable, e.g. "C:/WINDOWS/System32/notepad.exe"
